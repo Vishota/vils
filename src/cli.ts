@@ -13,6 +13,8 @@ import { promptConfirm } from './utils';
 import { Config, CLIArgs } from './types';
 
 async function main() {
+    console.log('vils started')
+
     const startTime = Date.now();
 
     const argv = yargs(hideBin(process.argv))
